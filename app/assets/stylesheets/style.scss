@@ -1,0 +1,187 @@
+body,html {
+  height: 100%;
+  background-color: LightGray;
+}
+
+body {
+  padding-top: 60px;
+}
+
+h1,h2,h3,h4,h5,h6,body {
+  line-height: 1.57;
+  letter-spacing: 0.15em;
+  font-size: 16px;
+  color: dark;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: dark;
+}
+
+p {
+  text-decoration: none;
+  color: dark;
+  line-height: 1.57;
+  letter-spacing: 0.15em;
+  font-size: 16px;
+  color: dark;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 14px;
+  border: 2px solid accent;
+  color: accent;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.title {
+  font-weight: bold
+}
+
+header.header {
+  border-bottom: 1px solid gray;
+  background-color: rgba(25, 25, 120, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  div.header__bar.row {
+    position: relative;
+    h1.grid-6 {
+      font-size: 20px;
+      line-height: 41px;
+      float: left;
+      padding: 0 300px 0;
+      a {
+        display: block;
+        color: black;
+      }
+    }
+    div.grid-6 {
+      .post {
+        padding: 0 0 0 10px;
+        color: red;
+      }
+      float: right;
+      color: green;
+      padding: 10px 100px 0;
+    }
+  }
+}
+
+.form {
+  background-size: cover;
+  .contents {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    bottom: 0;
+    right: 0;
+  }
+  footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+  }
+}
+
+div.contents.row {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  h2 {
+    font-weight: normal;
+    strong {
+      font-weight: bold;
+      padding-right: 5px;
+      font-size: 1.2em;
+    }
+  }
+}
+
+div.content-wrapper {
+  display: flex;
+  margin: 0 auto 0;
+}
+
+.content-box {
+  background-color: gray;
+  padding: 200px 191.5px;
+}
+
+#left {
+  background-color: darkgray;
+}
+
+form {
+  h3 {
+    margin: 0 0 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  input,textarea {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    border: 0;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    border-radius: 20px;
+    color: black;
+    border: 0;
+    font-size: 18px;
+  }
+}
+.success h3 {
+  margin: 0 0 20px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.btn {
+  margin: 10px 330px 0px;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 2px solid;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.container {
+  box-shadow: 0 0 10px rgba(black,0.2);
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.content_post {
+  .title {
+    border: 2px solid;
+  }
+  border: 2px solid;
+}
+
+footer {
+  color: gray;
+  p {
+    text-align: center;
+  }
+}
