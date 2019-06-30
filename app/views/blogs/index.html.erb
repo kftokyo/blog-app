@@ -1,0 +1,19 @@
+<div class="contents row">
+  <div class="content-wrapper">
+    <% if user_signed_in? %>
+      <div class="content-box" id="left">
+        <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
+      </div>
+      <div class="content-box" id="right">
+        <a href="/users/<%= current_user.id %>">マイページ</a>
+      </div>
+    <% else %>
+      <div class="content-box" id="left">
+        <%= link_to 'ログイン', '/users/sign_in' %>
+      </div>
+      <div class="content-box" id="right">
+        <%= link_to '新規登録', '/users/sign_up' %>
+      </div>
+    <% end %>
+  </div>
+</div>
